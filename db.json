@@ -1,88 +1,22 @@
 {
   "items": [
     {
-      "id": 1,
-      "name": "Yogurt",
-      "category": "Dairy",
-      "isInCart": true
-    },
-    {
-      "id": 2,
-      "name": "Pomegranate",
-      "category": "Produce",
-      "isInCart": true
-    },
-    {
-      "id": 3,
-      "name": "Lettuce",
-      "category": "Produce",
-      "isInCart": true
-    },
-    {
-      "id": 4,
-      "name": "String Cheese",
-      "category": "Dairy",
-      "isInCart": true
-    },
-    {
-      "id": 5,
-      "name": "Swiss Cheese",
-      "category": "Dairy",
-      "isInCart": true
-    },
-    {
-      "id": 6,
-      "name": "Cookies",
-      "category": "Dessert",
-      "isInCart": true
-    },
-    {
-      "name": "Turkeyyyy",
-      "category": "Produce",
-      "isInCart": true,
-      "id": 7
-    },
-    {
-      "name": "Turkeyyyy",
-      "category": "Produce",
-      "isInCart": true,
-      "id": 8
-    },
-    {
-      "name": "Turkeyyyy",
-      "category": "Produce",
-      "isInCart": true,
-      "id": 9
-    },
-    {
-      "name": "Cheese",
-      "category": "Dairy",
-      "isInCart": true,
-      "id": 10
-    },
-    {
-      "name": "loganberries",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 11
-    },
-    {
-      "name": "Noodles",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 12
-    },
-    {
       "name": "Gouda",
       "category": "Dairy",
       "isInCart": false,
-      "id": 13
+      "id": 1
     },
     {
-      "name": "Juice",
-      "category": "Produce",
+      "name": "Feta",
+      "category": "Dairy",
       "isInCart": false,
-      "id": 14
+      "id": 2
+    },
+    {
+      "name": "Mozzarella",
+      "category": "Dairy",
+      "isInCart": false,
+      "id": 3
     }
   ]
 }
