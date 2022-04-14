@@ -17,6 +17,30 @@
       "category": "Dairy",
       "isInCart": false,
       "id": 3
+    },
+    {
+      "name": "Dog treats",
+      "category": "Produce",
+      "isInCart": false,
+      "id": 7
+    },
+    {
+      "name": "Gateux",
+      "category": "Dessert",
+      "isInCart": false,
+      "id": 8
+    },
+    {
+      "name": "Katsup",
+      "category": "Produce",
+      "isInCart": false,
+      "id": 9
+    },
+    {
+      "name": "Ketchup",
+      "category": "Produce",
+      "isInCart": false,
+      "id": 10
     }
   ]
 }

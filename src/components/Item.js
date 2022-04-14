@@ -1,19 +1,31 @@
 import React from "react";
 
-function Item({ item, onUpdateItem, onDeleteItem }) {
-  function handleAddToCartClick() {
+const Item = ({ item, onUpdateItem, onDeleteItem }) => {
+  
+  const handleAddToCartClick = async () => {
     console.log("clicked item", item)
-    fetch(`http://localhost:4000/items/${item.id}`, {
-      method: "PATCH",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        isInCart: !item.isInCart,
-      }),
-    })
-    .then ((r) => r.json())
-    .then((updatedItem) => onUpdateItem(updatedItem))
+      let req = await fetch(`http://localhost:4000/items/${item.id}`,
+      {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ isInCart: !item.isInCart,
+        }),
+      })
+      let res = await req.json()
+      onUpdateItem(res)
+    // fetch(`http://localhost:4000/items/${item.id}`, {
+    //   method: "PATCH",
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //   },
+    //   body: JSON.stringify({
+    //     isInCart: !item.isInCart,
+    //   }),
+    // })
+    // .then ((r) => r.json())
+    // .then((updatedItem) => onUpdateItem(updatedItem))
   }
 
   function handleDeleteClick() {
